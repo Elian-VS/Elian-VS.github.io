@@ -1,0 +1,205 @@
+<html>
+
+<head>
+    <title>Mi primera pagina web</title>
+    <style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header,nav,main,footer{
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 300px;
+    margin: 0 auto;
+    padding: 50px;
+        }
+        header{
+            /* width:960px;*/
+            height: 100px;
+            background-color: chocolate;
+            color: beige;
+            text-align: center;
+        }
+        nav{
+            height: 50px;
+            background-color: sandybrown;
+            color: brown;
+            padding: 20px 50px;
+        }
+        main{
+    height: auto;
+    background-color: #F4F1BB;
+    color: brown;
+        }
+        footer{
+            height: 40px;
+            background-color: chocolate;
+            color: beige;
+            text-align: center;
+        }
+        section{
+            width: 800px;
+            height: auto;
+            background-color: chocolate;
+            color: bisque; 
+            margin: 30px auto;
+            padding: 30px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color:aquamarine;
+        }
+        a:visited{
+            color: royalblue;
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        main nav{
+            width: 500px;
+            text-align: center;
+            background-color: transparent;
+        }
+        nav a{ 
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px; 
+            border:2px solid brown;
+            border-radius: 30px;
+            
+        }
+        nav a:link{
+            background-color: brown;
+        }
+        nav a:visited{
+            
+        }
+        nav a:hover{
+            text-decoration: none;
+            background-color:cadetblue;
+            color: brown;
+        }
+        ul,ol{
+            padding: 10px 30px;
+        }
+        ul{
+            list-style-type: square;
+        }
+        ol{
+            list-style-type: upper-roman;
+        }
+        section article ul{
+            list-style-image: url("imagenes/pelicula.png")
+        }
+        nav ul{
+            list-style-type: none;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        nav ul li a{
+            background-color: transparent;
+            border: none;
+        }
+        nav ul li a:visited, nav ul li a:link{
+            background-color: transparent;
+            color: brown;
+        }
+        nav ul li a:hover{
+            background-color: transparent;
+            color: dodgerblue;
+        }
+        img{
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            margin-bottom: 20px;
+        }
+		h1{
+			font-family: "Holtwood One SC", serif;
+			font-size: 50px;
+		}
+		p{
+    font-family: "Roboto", sans-serif;
+		}
+    </style>
+
+</head>
+<body>
+   <header>
+    <h1>Mi primera pagina</h1>
+    </header> 
+    <nav>
+        <!-- Comentario 1: Aqui va el menu -->
+        <ul>
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="html/galeria.html">Galeria</a></li>
+            <li> <a href="html/practicas.html">Practicas</a></li>
+            <li> <a href="html/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h2 id="titulo1">¿Quien soy yo?</h2>
+                <p>Soy Elian alumno de la <a href="http://www.buap.mx"target="_blank">Benemerita Universidad Autonoma de Puebla</a> de la carrera de Diseño Grafico, el área del diseño en la que más me gusta y en la que me especializo es la ilustració.. A lo largo del tiempo he acumulado experiencia en este tipo de trabajos, estudiando la carrera de diseño gráfico he ganado conocimiento a cerca de <strong>composición, teoría del color</strong>, manejar los diferentes programas de diseño así como también técnicas de <strong>ilustración tradicional</strong> en las que se utiliza diferentes materiales lo cual hace que se tenga bastante versatilidad al momento plasmar ideas y conceptos que ayuden en un proyecto en el cual se requiera de dibujos o ilustraciones.<strong>&nbsp;</strong></p>
+                <img src="imagenes/foto de mi.jpg" alt="foto una persona de frente">
+                <p><mark>Mis gustos son leer comics y libros y tambier ver serie, de las cuales he obtenido inspiracion para realizar algunos trabajos y mis personajes de ficción favoritos son:&nbsp;&nbsp;</mark>
+                </p>
+                <ul>
+                    <li>Superman</li>
+                    <li>Batman</li>
+                    <li>Godzila</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <h2 id="titulo2">MI familia</h2>
+            <p><i>Mi familia esta conformada por cinco miembros incluyéndome y son mamá, papá, mis dos hermanos y vivimos todos en la misma casa y todos</i><i> vivimos en el estado de <a href="https://es.wikipedia.org/wiki/Tlaxcala" target="_blank">Tlaxcala</a></i> ,pero yo viajo a Puebla para ir a la universidad .</p>
+            <p><i><a href="imagenes/david-lezcano-m-Doa-GTrUw-unsplash.jpg">MI MASCOTA</a>es una perrita llamada Timm, pero en la casa&nbsp;hay mas mascotas y en total son 4 perros y 2 gato, ellos siempres esta jugando y cuadan la casa cuando no estamos&nbsp;</i>.</p>
+            <p>&nbsp;</p>
+<img src="imagenes/foto de mi familia.jpeg" alt="foto de familia">
+            <p>Miembros de la familia del más viejo al más joven: </p>
+            <ol>
+                <li>Rafael Vazquez Zapata</li>
+                <li>Flor Sanchez Flores</li>
+                <li>Yairis Vazquez Sanchez</li>
+                <li>Elian Vazquez Sanchez</li>
+                <li>Cuahutemoc Vzaquez Sanchez</li>
+            </ol>
+        </section>
+        <section>
+            <h2 id="titulo3">Mis hobbies</h2>
+            <p>Uno de mis hobbies es mirar series en Netflixs y una de mis series favoritas es&nbsp;&nbsp; <a href="https://es.wikipedia.org/wiki/House_M._D."target= "_blank">House M.D.</a>
+               otro de mis hobbies es leer libros de ciencia-ficción y uno de mis favoritos es <a href="pdf/frankenstein-resumen-585777-downloadable-5134692.pdf">Frankenstain</a>; que  es una novela de terror gótica sobre un hombre llamado Victor Frankenstein que descubre el secreto para crear vida. Utiliza este conocimiento para formar un monstruo horrible, que se convierte en la fuente de su miseria y desaparición. </p>
+            <img src="imagenes/hobbies.jpg" alt="foto de una persona leyendo un libro">
+            <p>También tengo el gusto por dibujar y tomo ispiracion de libro, comics y series para realizar ilustraciones de personajes que me gustan y tambien me gusta cocinar y probar platillos nuevosp;  <b><i><sup>r;</sup>v<sup></sup><sup>5</sup> </i></b>
+                 
+            </p>
+            
+            <ul>
+                <li>Comer</li>
+                <li>Leer</li>
+                <li>Dibujar</li>
+            </ul>
+               
+        </section>
+        <nav>
+            <a href="#titulo1">¿Quien soy yo?</a>
+            <a href="#titulo2">Mi familia</a>
+            <a href="#titulo3">Mis hobbies</a>
+        </nav>
+    </main>
+    <footer>
+    <h6>Elaborado por Elian Vazquez Sanchez</h6>
+</footer>
+  </body>
+</html>

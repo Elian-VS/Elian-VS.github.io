@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cuetionario</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.formato_input {
+    margin: 10px;
+    padding: 5px;
+    width: 95%;
+}
+.formato_numero {
+    margin: 10px;
+    padding: 5px;
+    width: 41%;
+}
+section {
+    background-color: #1A4C7A;
+    width: 50%;
+}
+.formato_sub {
+    color: #36C9C6;
+}
+#submit {
+    padding: 15px;
+    width: 20%;
+    color: #F4F1BB;
+    border-radius: 20px;
+    background-color: #ED6A5A;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>cuestionario</h1>
+</header>
+<nav>
+	 <ul>
+    <li><a href="../index.html">Inicio</a>&nbsp;</li>
+    <li><a href="../html/galeria.html">Galeria&nbsp;</a></li>
+    <li><a href="../html/practicas.html">Practicas</a>&nbsp;</li>
+    <li><a href="../html/contacto.html">Contacto</a>&nbsp;</li>
+	 </ul>
+</nav>
+<main>
+	 <section>
+    <h2>Datos generales&nbsp;</h2>
+    <label for="nombre">Nombre:</label>
+    <input name="nombre" type="text" class="formato_input" id="nombre" size="20" maxlength="55">
+    <label for="edad">Edad:</label>
+    <input name="edad" type="number" class="formato_numero" id="edad" max="99" min="1">
+    <label for="tel">Tel:</label>
+    <input name="tel" type="tel" class="formato_numero" id="tel" size="10" maxlength="20">
+    <label for="email">Email:</label>
+<input name="email" type="email" class="formato_input" id="email" size="20" maxlength="40">
+<label for="email2">Sexo:&nbsp;</label>
+    <p>
+      <label>
+        <input type="radio" name="sexo" value="opción" id="sexo_0">
+        Hombre</label>
+      <br>
+      <label>
+        <input type="radio" name="sexo" value="opción" id="sexo_1">
+        Mujer</label>
+      <br>
+      <label>
+        <input type="radio" name="sexo" value="opción" id="sexo_2">
+        Otro</label>
+      <br>
+    </p>
+     </section>
+	 <section>
+	   <h2>Sobre ti&nbsp;</h2>
+	   <label for="textfield" class="formato_sub">Película favorita:</label>
+       <input name="textfield" type="text" class="formato_input" id="textfield" size="20" maxlength="50">
+       <label class="formato_sub">Música que te gusta:&nbsp;&nbsp;</label>
+       <p>
+         <label>
+           <input type="checkbox" name="Genero de música favorito" value="casilla de verificación " id="Generodemuacutesicafavorito_0">
+           Rock</label>
+         <br>
+         <label>
+           <input type="checkbox" name="Genero de música favorito" value="casilla de verificación " id="Generodemuacutesicafavorito_1">
+           Reggeton</label>
+         <br>
+         <label>
+           <input type="checkbox" name="Genero de música favorito" value="casilla de verificación " id="Generodemuacutesicafavorito_2">
+           Electronica</label>
+         <br>
+         <label>
+           <input type="checkbox" name="Genero de música favorito" value="casilla de verificación " id="Generodemuacutesicafavorito_3">
+           Metal</label>
+         <br>
+         <label>
+           <input type="checkbox" name="Genero de música favorito" value="casilla de verificación " id="Generodemuacutesicafavorito_4">
+           Cumbia </label>
+         <br>
+         <label>
+           <input type="checkbox" name="Genero de música favorito" value="casilla de verificación " id="Generodemuacutesicafavorito_5">
+           K-pop</label>
+         <br>
+       </p>
+       <label for="textfield2" class="formato_sub">Nombre de tu mascota:</label>
+<input name="textfield2" type="text" class="formato_input" id="textfield2" size="20" maxlength="50">
+       <label for="textfield2" class="formato_sub">Team frio o calo:&nbsp;</label>
+<p>
+      <label>
+           <input type="radio" name="Team frio o calor" value="opción" id="Teamfrioocalor_0">
+         Frio</label>
+         <br>
+         <label>
+           <input type="radio" name="Team frio o calor" value="opción" id="Teamfrioocalor_1">
+           Calor</label>
+         <br>
+       </p>
+       <label for="textfield2" class="formato_sub">Color favorito&nbsp;</label>
+       <p>
+         <label>
+           <input type="checkbox" name="color" value="casilla de verificación " id="color_0">
+           rojo</label>
+         <br>
+         <label>
+           <input type="checkbox" name="color" value="casilla de verificación " id="color_1">
+           azul</label>
+         <br>
+         <label>
+           <input type="checkbox" name="color" value="casilla de verificación " id="color_2">
+           amarillo</label>
+         <br>
+         <label>
+           <input type="checkbox" name="color" value="casilla de verificación " id="color_3">
+           verde</label>
+         <br>
+         <label>
+           <input type="checkbox" name="color" value="casilla de verificación " id="color_4">
+           morado</label>
+         <br>
+         <label>
+           <input type="checkbox" name="color" value="casilla de verificación " id="color_5">
+           naranja</label>
+         <br>
+       </p>
+       <label for="textfield3" class="formato_sub">Libro favorio:&nbsp;</label>
+       <input name="textfield3" type="text" class="formato_input" id="textfield3" size="20" maxlength="50">
+       <label for="textarea" class="formato_sub">Escribe una breve reseña del libro:</label>
+<textarea name="textarea" maxlength="100" class="formato_input" id="textarea"></textarea>
+       <label for="textarea" class="formato_sub">Estación del año preferida:</label>
+       <p>
+         <label>
+           <input type="radio" name="estacion" value="opción" id="estacion_0">
+           Primavera</label>
+         <br>
+         <label>
+           <input type="radio" name="estacion" value="opción" id="estacion_1">
+           Verano</label>
+         <br>
+         <label>
+           <input type="radio" name="estacion" value="opción" id="estacion_2">
+           Otoño</label>
+         <br>
+         <label>
+           <input type="radio" name="estacion" value="opción" id="estacion_3">
+           Invierno</label>
+         <br>
+       </p>
+       <label for="textarea2" class="formato_sub">Comó te ves en 5 años:</label>
+       <textarea name="textarea2" class="formato_input" id="textarea2"></textarea>
+       <input name="submit" type="submit" id="submit" formaction="../index.html" value="Enviar">
+     </section>
+</main>
+<footer>
+  <h6>Elaborado po Elian&nbsp;</h6>
+&nbsp;</footer>
+</body>
+</html>
